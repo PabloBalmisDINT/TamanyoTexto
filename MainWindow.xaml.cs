@@ -26,7 +26,7 @@ namespace TamanyoTexto
             MedioRadioButton.IsChecked = true;
         }
 
-        private void CambiarTamanyoTexto(object sender, RoutedEventArgs e)
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
             RadioButton boton = (RadioButton) sender;
             int tamanyo = int.Parse(boton.Tag.ToString());

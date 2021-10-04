@@ -17,7 +17,8 @@
                    VerticalAlignment="Top"
                    Height="101"
                    Width="683"
-                   TextAlignment="Center" />
+                   TextAlignment="Center"
+                   FontSize="48" />
         <RadioButton Content="Pequeño"
                      HorizontalAlignment="Left"
                      Margin="83,310,0,0"
@@ -26,7 +27,7 @@
                      Width="97"
                      Tag="36"
                      RenderTransformOrigin="0.5,0.5"
-                     Checked="CambiarTamanyoTexto">
+                     Checked="RadioButton_Checked">
             <RadioButton.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2"
@@ -45,7 +46,7 @@
                      Height="18"
                      Width="97"
                      RenderTransformOrigin="0.5,0.5"
-                     Checked="CambiarTamanyoTexto"
+                     Checked="RadioButton_Checked"
                      Tag="48">
             <RadioButton.RenderTransform>
                 <TransformGroup>
@@ -65,7 +66,7 @@
                      Width="97"
                      RenderTransformOrigin="0.5,0.5"
                      Tag="72"
-                     Checked="CambiarTamanyoTexto">
+                     Checked="RadioButton_Checked">
             <RadioButton.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2"
